@@ -1,4 +1,4 @@
-# OptiStim Eval Board
+# OmniStim Eval Board
 
 This is an evaluation board to test operating principles of the OptiStim head unit. 
 
