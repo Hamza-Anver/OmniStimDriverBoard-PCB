@@ -1509,7 +1509,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "11")
 				)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "6")
 				)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "10")
 				)
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "5")
 				)
@@ -1897,7 +1897,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "4")
 				)
@@ -1979,7 +1979,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "7")
 				)
@@ -2031,7 +2031,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "9")
 				)
@@ -2073,7 +2073,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "3")
 				)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "2")
 				)
@@ -2317,7 +2317,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "8")
 				)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(instances
-			(project "OptiStimEvalBoard"
+			(project "OmniStimEvalBoard"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882"
 					(page "12")
 				)
