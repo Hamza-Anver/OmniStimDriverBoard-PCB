@@ -10,6 +10,113 @@
 		(comment 1 "Schematic developed by Hamza Anver")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2095,6 +2202,12 @@
 		(uuid "49abb886-1dc6-48ee-beca-f0d0db2a3813")
 	)
 	(junction
+		(at 90.17 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb08416-fd8a-488f-b375-9af56f303d80")
+	)
+	(junction
 		(at 161.29 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2364,6 +2477,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 109.22) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b57b9b-3646-4a9a-8575-1a1031917bc2")
+	)
+	(wire
+		(pts
 			(xy 130.81 139.7) (xy 133.35 139.7)
 		)
 		(stroke
@@ -2391,6 +2514,16 @@
 			(type default)
 		)
 		(uuid "7797dbbe-78e2-4769-ac6e-8aab9679d915")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 101.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83143171-d392-4a99-bc1a-bd8d7479c216")
 	)
 	(wire
 		(pts
@@ -2523,6 +2656,17 @@
 		)
 		(uuid "0848391f-7312-47f0-a113-10454bf2106f")
 	)
+	(hierarchical_label "ESP_ADC2_CH8"
+		(shape input)
+		(at 101.6 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2439c5ae-c3da-4325-ac05-9d551a05dff7")
+	)
 	(hierarchical_label "TXD0"
 		(shape input)
 		(at 170.18 96.52 0)
@@ -2558,7 +2702,7 @@
 	)
 	(hierarchical_label "ESP_APLL_OUT"
 		(shape input)
-		(at 101.6 109.22 180)
+		(at 86.36 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,6 +2732,17 @@
 			(justify left)
 		)
 		(uuid "5a1b5528-0f42-4428-b41f-e20f05fc9dd5")
+	)
+	(hierarchical_label "USB_D-"
+		(shape input)
+		(at 101.6 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67047939-bd4b-4684-ba4e-ca666402bb8d")
 	)
 	(hierarchical_label "GPIO_DAC_LDAC"
 		(shape input)
@@ -2666,7 +2821,7 @@
 		)
 		(uuid "d5d6084c-3bc8-4d7a-a550-4d8946a3ab34")
 	)
-	(hierarchical_label "ESP_ADC2_CH9"
+	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 101.6 116.84 180)
 		(effects
@@ -3334,6 +3489,73 @@
 			(project ""
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/d0bf1820-e0f9-4ed8-8e96-40c0d535d7f1"
 					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c10db6b-5193-4f29-a94e-755ee3acfbb4")
+		(property "Reference" "TP201"
+			(at 92.71 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APLL"
+			(at 92.71 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e5ef3f2-09ef-48c5-9c86-421d1210d962")
+		)
+		(instances
+			(project ""
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/d0bf1820-e0f9-4ed8-8e96-40c0d535d7f1"
+					(reference "TP201")
 					(unit 1)
 				)
 			)

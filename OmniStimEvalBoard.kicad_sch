@@ -638,6 +638,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4355a750-9094-4fa3-9ebd-32de81d704df")
+	)
+	(wire
+		(pts
 			(xy 27.94 54.61) (xy 27.94 91.44)
 		)
 		(stroke
@@ -655,6 +665,16 @@
 			(type default)
 		)
 		(uuid "5826f601-839d-4064-8394-52407b03b92b")
+	)
+	(wire
+		(pts
+			(xy 35.56 41.91) (xy 15.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5895bc8c-ac63-418f-8822-8e192d285775")
 	)
 	(wire
 		(pts
@@ -735,6 +755,16 @@
 			(type default)
 		)
 		(uuid "7dbb217c-8a4d-4565-bb4e-e3f5585e4231")
+	)
+	(wire
+		(pts
+			(xy 15.24 104.14) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f7d037-5541-40cf-b181-b47bb1a389d2")
 	)
 	(wire
 		(pts
@@ -918,6 +948,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 44.45) (xy 17.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32587c4-b85a-4608-96f0-09a840342825")
+	)
+	(wire
+		(pts
 			(xy 25.4 93.98) (xy 35.56 93.98)
 		)
 		(stroke
@@ -925,6 +965,16 @@
 			(type default)
 		)
 		(uuid "e4b35018-13fa-45b2-b64e-792a45de9d9c")
+	)
+	(wire
+		(pts
+			(xy 35.56 44.45) (xy 17.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cfe84e-046c-4899-9ccf-941296abfc31")
 	)
 	(wire
 		(pts
@@ -965,6 +1015,16 @@
 			(type default)
 		)
 		(uuid "f62ca974-d8e3-4ce0-b03f-f128e231a206")
+	)
+	(wire
+		(pts
+			(xy 15.24 41.91) (xy 15.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ebd1ac-4f47-40ca-bd5f-c857a4ef245e")
 	)
 	(wire
 		(pts
@@ -1518,7 +1578,7 @@
 	)
 	(sheet
 		(at 35.56 80.01)
-		(size 35.56 21.59)
+		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1542,7 +1602,7 @@
 			)
 		)
 		(property "Sheetfile" "devextras.kicad_sch"
-			(at 35.56 102.1846 0)
+			(at 35.56 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,6 +1688,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ESP_UDB_DP" input
+			(at 35.56 101.6 180)
+			(uuid "a1c16968-bc77-469e-ba61-422311184ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_USB_DN" input
+			(at 35.56 104.14 180)
+			(uuid "6b8cf2eb-1441-402a-8922-e995567b23b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2124,7 +2204,7 @@
 				(justify right)
 			)
 		)
-		(pin "ESP_ADC2_CH9" input
+		(pin "ESP_ADC2_CH8" input
 			(at 85.09 26.67 0)
 			(uuid "f37e4162-2486-4079-9fb9-a0ae35d404d2")
 			(effects
@@ -2252,6 +2332,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 35.56 44.45 180)
+			(uuid "7792bbdd-1545-496a-87b4-88731d7d086a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 35.56 41.91 180)
+			(uuid "1ce3da81-6b4c-47d5-8140-f6b8a6fe78df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

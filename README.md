@@ -10,8 +10,14 @@ Future designs will have their capacitance entirely digitally controlled, and be
 
 This board is intended only to test if the ESP32 with this conditioning can successfully drive the LC tank and if the resonance of the tank can be subsequently measured by the ESP32. 
 
-
-## Resolved Errata Rev 2
+# ChangeLog
+## Revision 2
 [x] - USB to Serial RX TX swapped
+[x] - Added RXT and TXT LEDs for serial status
 [x] - Typo JTAG connector (TDI instead of 3V3)
-[x] - Missing EN and IO0 on UART breakout
+[x] - Missing EN and IO0 on UART breakout added
+[x] - Added USB C connector using ESP32 USB OTG pins (also changed ADC pin on ESP32)
+
+
+## Revision 1
+Was revision 1
