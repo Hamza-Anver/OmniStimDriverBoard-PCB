@@ -10,416 +10,6 @@
 		(comment 1 "Schematic developed by Hamza Anver")
 	)
 	(lib_symbols
-		(symbol "DSHP04TS-S_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW801"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DSHP04TS-S"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/_XKB-Enterprise-DSHP04TS-S_C319050.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C319050"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DSHP04TS-S_1_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -12.065)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -10.16) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy -0.25 6.1)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -0.25 1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy -0.25 -4.06)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -10.16) (xy -0.25 -9.14)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 2.54 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -10.16 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -559,31 +149,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:DSHP04TS-S"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "easyeda2kicad:G6K-2F-Y-DC5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW801"
-				(at 0 12.7 0)
+			(property "Reference" "K"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "DSHP04TS-S"
-				(at 0 10.16 0)
+			(property "Value" "G6K-2F-Y-DC5"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5"
-				(at 0 -10.16 0)
+			(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -591,8 +178,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/_XKB-Enterprise-DSHP04TS-S_C319050.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -609,8 +196,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C319050"
-				(at 0 -15.24 0)
+			(property "LCSC Part" "C47190"
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -618,10 +205,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DSHP04TS-S_0_1"
+			(symbol "G6K-2F-Y-DC5_0_1"
 				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -13.97)
+					(start -12.7 5.08)
+					(end 12.7 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -632,7 +219,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -5.08 5.08)
+						(xy -11.94 3.05) (xy -10.92 3.05)
 					)
 					(stroke
 						(width 0)
@@ -644,7 +231,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy 0 5.08)
+						(xy -11.94 2.29) (xy -10.92 2.29)
 					)
 					(stroke
 						(width 0)
@@ -656,7 +243,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy -11.94 1.52) (xy -10.92 1.52)
 					)
 					(stroke
 						(width 0)
@@ -668,7 +255,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0 0)
+						(xy -11.94 1.02) (xy -10.92 1.02)
 					)
 					(stroke
 						(width 0)
@@ -680,7 +267,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -5.08 -5.08)
+						(xy -11.94 0.51) (xy -10.92 0.51)
 					)
 					(stroke
 						(width 0)
@@ -692,7 +279,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy 0 -5.08)
+						(xy -11.94 -0.25) (xy -10.92 -0.25)
 					)
 					(stroke
 						(width 0)
@@ -704,7 +291,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.16) (xy -5.08 -10.16)
+						(xy -11.94 -1.02) (xy -10.92 -1.02)
 					)
 					(stroke
 						(width 0)
@@ -716,7 +303,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -10.16) (xy 0 -10.16)
+						(xy -11.94 -1.52) (xy -10.92 -1.52)
 					)
 					(stroke
 						(width 0)
@@ -728,7 +315,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy -0.25 6.1)
+						(xy -11.68 3.81) (xy -11.18 3.81)
 					)
 					(stroke
 						(width 0)
@@ -740,7 +327,30 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy -0.25 1.02)
+						(xy -11.68 -2.29) (xy -11.18 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -8.89 1.27)
+					(end -6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -7.62 1.27)
 					)
 					(stroke
 						(width 0)
@@ -752,7 +362,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy -0.25 -4.06)
+						(xy -7.62 0) (xy -7.62 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -764,7 +374,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -10.16) (xy -0.25 -9.14)
+						(xy -7.11 3.05) (xy -6.1 3.05)
 					)
 					(stroke
 						(width 0)
@@ -776,7 +386,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08)
+						(xy -7.11 -1.78) (xy -6.1 -1.78)
 					)
 					(stroke
 						(width 0)
@@ -788,7 +398,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 2.54 0)
+						(xy -6.6 -2.29) (xy -6.6 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -800,7 +410,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08)
+						(xy -5.08 5.08) (xy -5.08 2.54) (xy 1.27 2.54) (xy 0 3.05)
 					)
 					(stroke
 						(width 0)
@@ -812,7 +422,103 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 2.54 -10.16)
+						(xy -5.08 -3.81) (xy -5.08 -1.27) (xy 1.27 -1.27) (xy 0 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 2.54 3.81) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.08 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.08 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 2.54) (xy 3.81 2.54) (xy 5.08 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -1.27) (xy 3.81 -1.27) (xy 5.08 -1.78)
 					)
 					(stroke
 						(width 0)
@@ -823,79 +529,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 5.08 180)
+					(at -7.62 10.16 270)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -913,7 +547,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 0 180)
+					(at -7.62 -8.89 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 10.16 270)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -931,7 +583,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -5.08 180)
+					(at -5.08 -8.89 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 10.16 270)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -949,7 +619,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -10.16 180)
+					(at 2.54 -8.89 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 10.16 270)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -959,6 +647,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -8.89 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1003,12 +709,6 @@
 		(uuid "3db793ec-547f-4296-bc1d-6ba9b48b2a69")
 	)
 	(junction
-		(at 184.15 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "412401bd-4552-406b-b532-b87743aa2f75")
-	)
-	(junction
 		(at 127 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1019,12 +719,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b7f15a1-fc6f-4ad3-a3c2-91f5d9096d57")
-	)
-	(junction
-		(at 184.15 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d440b67-3c75-4deb-a607-698165e8ddf7")
 	)
 	(junction
 		(at 127 120.65)
@@ -1063,46 +757,16 @@
 		(uuid "8a082b91-c663-42b6-88ec-7601d6a5f781")
 	)
 	(junction
-		(at 184.15 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c5babdb-6add-42b9-a279-a223db69eb2f")
-	)
-	(junction
 		(at 127 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9046a936-157b-424c-aadb-25423af32916")
 	)
 	(junction
-		(at 184.15 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9139319d-ed67-4bd0-a908-f1efe1f94ccb")
-	)
-	(junction
-		(at 184.15 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91ea2d51-6688-4a5f-9a39-f517d68b3498")
-	)
-	(junction
-		(at 184.15 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b231384c-ce6d-4568-88eb-1516872662c1")
-	)
-	(junction
 		(at 127 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d45e85a3-b7c4-4174-b4f8-0e1241465853")
-	)
-	(junction
-		(at 184.15 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df00250e-15ca-42bc-b65c-52aab5a3a102")
 	)
 	(junction
 		(at 151.13 88.9)
@@ -1162,16 +826,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 120.65) (xy 184.15 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d25dd6e-9d10-41ca-b41f-489c4d312b08")
-	)
-	(wire
-		(pts
 			(xy 127 120.65) (xy 127 115.57)
 		)
 		(stroke
@@ -1199,16 +853,6 @@
 			(type default)
 		)
 		(uuid "21a8270e-5b9f-4e1f-9b94-58642df3b542")
-	)
-	(wire
-		(pts
-			(xy 184.15 125.73) (xy 184.15 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2874d57c-9cd0-4486-b641-8c1ac2d0d669")
 	)
 	(wire
 		(pts
@@ -1302,16 +946,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 115.57) (xy 184.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668b608d-f774-4c03-aed1-02da79b60394")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 163.83 78.74)
 		)
 		(stroke
@@ -1319,16 +953,6 @@
 			(type default)
 		)
 		(uuid "66c888e6-31dc-4c29-8355-8f9076376f34")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 184.15 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6705da17-f5b5-437b-bed4-95dd8bc08bd0")
 	)
 	(wire
 		(pts
@@ -1452,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 88.9) (xy 184.15 83.82)
+			(xy 184.15 73.66) (xy 184.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1479,16 +1103,6 @@
 			(type default)
 		)
 		(uuid "b13f5860-e5e8-4feb-a423-8fb8c5bcd915")
-	)
-	(wire
-		(pts
-			(xy 184.15 110.49) (xy 184.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5706409-58bd-4048-9e7a-8a5777c7c0f7")
 	)
 	(wire
 		(pts
@@ -1519,16 +1133,6 @@
 			(type default)
 		)
 		(uuid "d083ecae-1523-4abd-bb79-1e475a2fb4f3")
-	)
-	(wire
-		(pts
-			(xy 184.15 78.74) (xy 184.15 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3686c0f-af9f-43ee-9164-806ca734975e")
 	)
 	(wire
 		(pts
@@ -1788,6 +1392,103 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 125.73 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bd291a2-1bf0-4bf8-aec0-0e696ebcaece")
+		(property "Reference" "K805"
+			(at 139.7 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 139.7 178.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 125.73 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 125.73 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 125.73 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2561dea6-200f-4c4d-a601-656a4cdfedff")
+		)
+		(pin "1"
+			(uuid "39f9391f-d5b0-45d0-82d1-f27abb263e92")
+		)
+		(pin "7"
+			(uuid "e5511103-34fe-4dfd-80e6-3b0524abb0b6")
+		)
+		(pin "2"
+			(uuid "abafa9a1-1958-402b-bd72-e535f28e1c73")
+		)
+		(pin "6"
+			(uuid "62ec3455-84aa-4cfb-8d60-16a548c7c266")
+		)
+		(pin "3"
+			(uuid "aa2a8353-d1e1-4b2f-820f-3d8ff8fd6a07")
+		)
+		(pin "5"
+			(uuid "75cfa5f0-a52d-4020-95ad-988be37dc908")
+		)
+		(pin "4"
+			(uuid "39b0509d-582d-4a6f-9d5d-e63867a7bae4")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 78.74 90)
 		(unit 1)
@@ -1867,6 +1568,200 @@
 			(project "OptoGeneticHeadStage"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
 					(reference "C803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 209.55 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19790c9b-86a7-4cdc-9643-35e0cb7a7692")
+		(property "Reference" "K807"
+			(at 223.52 139.0649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 223.52 141.6049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 209.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 209.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 209.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "791f5973-bbaf-42ba-acc5-f1030ee011f9")
+		)
+		(pin "1"
+			(uuid "0228038a-2cc4-4771-b025-8a36c660bead")
+		)
+		(pin "7"
+			(uuid "0e366423-cb36-45f6-875c-ef10f862de79")
+		)
+		(pin "2"
+			(uuid "41b7764d-faf1-434e-88cf-c5b4cef03a72")
+		)
+		(pin "6"
+			(uuid "50bec710-b41f-420e-85ac-5134de5413c1")
+		)
+		(pin "3"
+			(uuid "1193b27a-fd90-47af-abfc-b61ebc8f4b8e")
+		)
+		(pin "5"
+			(uuid "875a1da7-168c-434e-affd-469ea98239f3")
+		)
+		(pin "4"
+			(uuid "53a17c70-4628-4a1d-b1bc-5e8b1d664caa")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K807")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 74.93 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eead789-77d0-4043-990a-ea7f8fed3c01")
+		(property "Reference" "K802"
+			(at 88.9 150.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 88.9 153.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 74.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1854be80-587d-4cff-9642-8affb4d0410d")
+		)
+		(pin "1"
+			(uuid "efbd9cbd-29fd-4499-b49e-bb157b933f45")
+		)
+		(pin "7"
+			(uuid "4913e8ad-a0e5-4456-9c89-5893c3a8e720")
+		)
+		(pin "2"
+			(uuid "23e772b9-b1bb-4319-b9b8-f5b82260416a")
+		)
+		(pin "6"
+			(uuid "10ef9909-753c-429b-ae6d-ca1cd8f36cac")
+		)
+		(pin "3"
+			(uuid "49013163-ee03-47f0-b138-515c3c4f7feb")
+		)
+		(pin "5"
+			(uuid "f9f5c3bd-b973-463f-8f1f-a9a34db7a7c8")
+		)
+		(pin "4"
+			(uuid "421c690d-2627-42cc-b901-0fa3802a56b5")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K802")
 					(unit 1)
 				)
 			)
@@ -2128,6 +2023,200 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 74.93 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4133003d-cdaa-4920-a996-f10023abc334")
+		(property "Reference" "K803"
+			(at 88.9 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 88.9 178.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 74.93 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 74.93 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1fab6dd9-441a-42bc-97e7-f73792accb6b")
+		)
+		(pin "1"
+			(uuid "56cb0242-1319-40f5-9f7c-a117a52467d2")
+		)
+		(pin "7"
+			(uuid "2618f33f-22f2-45e4-a367-92089449cd66")
+		)
+		(pin "2"
+			(uuid "aecc4dbd-4527-4026-9a0d-3ed092aa63e8")
+		)
+		(pin "6"
+			(uuid "1012375b-04b4-4df4-bd4f-004379461245")
+		)
+		(pin "3"
+			(uuid "4025f08e-df1a-4c83-9f04-a62608c763d2")
+		)
+		(pin "5"
+			(uuid "d63423f4-0b33-45ce-aa33-c76f603d5b20")
+		)
+		(pin "4"
+			(uuid "c03bcbe0-bc39-432d-b33a-253537cb25af")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 74.93 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c03f11b-07b2-4e97-adb6-31efcccf8212")
+		(property "Reference" "K801"
+			(at 88.9 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 88.9 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e2d13649-b3ed-4a50-ab6d-0c969db1e7df")
+		)
+		(pin "1"
+			(uuid "061a2d57-a061-41a4-a544-ba7024c56fd9")
+		)
+		(pin "7"
+			(uuid "a29ed4c4-2d4d-4d35-a353-0b38a61576aa")
+		)
+		(pin "2"
+			(uuid "26ce7bed-cd9b-470e-b13e-afa13a65b95c")
+		)
+		(pin "6"
+			(uuid "8e4bfbe3-c4ea-4122-ae84-7e937ce246bf")
+		)
+		(pin "3"
+			(uuid "894b71c7-4217-4e11-9b56-30bfd09e3d6f")
+		)
+		(pin "5"
+			(uuid "6e2d084e-630c-4056-80d0-dd25cea3793a")
+		)
+		(pin "4"
+			(uuid "ae23ef25-3359-458f-8411-183b152875ce")
+		)
+		(instances
+			(project ""
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 88.9 90)
 		(unit 1)
@@ -2383,102 +2472,6 @@
 		)
 	)
 	(symbol
-		(lib_name "DSHP04TS-S_1")
-		(lib_id "easyeda2kicad:DSHP04TS-S")
-		(at 173.99 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9326aa8c-aee3-4dac-902f-5b2407f4d578")
-		(property "Reference" "SW801"
-			(at 173.99 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DSHP04TS-S"
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5"
-			(at 173.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/_XKB-Enterprise-DSHP04TS-S_C319050.html"
-			(at 173.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C319050"
-			(at 173.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "109ebf83-0581-43fe-9460-7b6e15b51442")
-		)
-		(pin "2"
-			(uuid "e9dda92f-abde-4623-b721-52ba1647b36c")
-		)
-		(pin "3"
-			(uuid "5e1ce6ba-9c70-424d-9edd-87a37a84d2dd")
-		)
-		(pin "4"
-			(uuid "ec9012e5-75af-4161-81c4-e0428ffe6bdc")
-		)
-		(pin "8"
-			(uuid "74dd98cc-857a-46ca-b693-afa9b074cbfa")
-		)
-		(pin "7"
-			(uuid "3386e12b-b70c-488d-baf3-3630d4a52729")
-		)
-		(pin "6"
-			(uuid "3e006950-25ee-4b61-9fde-e7df9fa0239b")
-		)
-		(pin "5"
-			(uuid "abdd00b0-f196-429e-95e6-2a1d2adb30be")
-		)
-		(instances
-			(project ""
-				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
-					(reference "SW801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 143.51 130.81 90)
 		(unit 1)
@@ -2558,101 +2551,6 @@
 			(project "OptoGeneticHeadStage"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
 					(reference "C812")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:DSHP04TS-S")
-		(at 173.99 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfcdbf84-db4f-4295-823f-bff00e369731")
-		(property "Reference" "SW802"
-			(at 173.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DSHP04TS-S"
-			(at 173.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5"
-			(at 173.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/_XKB-Enterprise-DSHP04TS-S_C319050.html"
-			(at 173.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C319050"
-			(at 173.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c177738-7018-4333-ae61-b194f10f9d51")
-		)
-		(pin "2"
-			(uuid "e461226e-cb16-4e1a-a7aa-0a66804fccd6")
-		)
-		(pin "3"
-			(uuid "46f83c40-3420-43a1-94d0-51a6026b9c77")
-		)
-		(pin "4"
-			(uuid "92d38cc8-c9d8-434f-bca3-29196a503357")
-		)
-		(pin "8"
-			(uuid "cef69d4c-fc46-4d3e-994a-7212e4d093c7")
-		)
-		(pin "7"
-			(uuid "f33735aa-c302-495f-870c-a50abc837ab9")
-		)
-		(pin "6"
-			(uuid "63630a10-4e62-495f-8eb7-2d0c3caba8d2")
-		)
-		(pin "5"
-			(uuid "3491b562-aeb8-411c-90f6-eee0f7100fdf")
-		)
-		(instances
-			(project "OptoGeneticHeadStage"
-				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
-					(reference "SW802")
 					(unit 1)
 				)
 			)
@@ -2908,6 +2806,200 @@
 			(project "OptoGeneticHeadStage"
 				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
 					(reference "C804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 125.73 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe415ae-7e5e-47f7-8004-b3e7eff11c1a")
+		(property "Reference" "K804"
+			(at 139.7 151.7649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 139.7 154.3049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e22de1db-a7ca-457e-b780-3f9773ace0b3")
+		)
+		(pin "1"
+			(uuid "07979237-0d5e-4186-9fa9-56a4c64466f3")
+		)
+		(pin "7"
+			(uuid "ae0d1f7d-7813-4dbb-a296-02df86d7cf95")
+		)
+		(pin "2"
+			(uuid "6ba5e3bd-b545-4730-abfd-0789a4bc568f")
+		)
+		(pin "6"
+			(uuid "7bbb4203-30e0-4ed8-ae3d-97f588723711")
+		)
+		(pin "3"
+			(uuid "afa64861-9533-4e0c-9b9b-9eb513ee5201")
+		)
+		(pin "5"
+			(uuid "eeee8d5f-4b57-421e-aaac-663b382e6dc2")
+		)
+		(pin "4"
+			(uuid "5cb6bae8-c2a8-470e-bd68-2831cc2962af")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:G6K-2F-Y-DC5")
+		(at 171.45 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f601912b-f5c1-4cee-953f-a0d9c985399e")
+		(property "Reference" "K806"
+			(at 185.42 151.7649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-DC5"
+			(at 185.42 154.3049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RELAY-SMD_G6K-2F-X-XX"
+			(at 171.45 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_OMRON_G6K-2F-Y-DC5_G6K-2F-Y-DC5_C47190.html"
+			(at 171.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47190"
+			(at 171.45 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8305c39b-62be-4117-a895-597022164e0c")
+		)
+		(pin "1"
+			(uuid "d345e6d4-adb1-4c60-aa9b-cd42989bc081")
+		)
+		(pin "7"
+			(uuid "7c861818-c8bd-426c-a897-4722ec18a1cd")
+		)
+		(pin "2"
+			(uuid "648897fe-dd89-4083-9271-7c1c6948d78b")
+		)
+		(pin "6"
+			(uuid "2ba90883-33ee-44d3-b822-e30791538079")
+		)
+		(pin "3"
+			(uuid "2598cac8-5f82-40e0-a687-dfe22bb61402")
+		)
+		(pin "5"
+			(uuid "b19760bc-41db-427a-b336-1a45caaf394a")
+		)
+		(pin "4"
+			(uuid "95d7845a-1853-4d1a-81ff-8d155cf785db")
+		)
+		(instances
+			(project "OmniStimDriverBoard-PCB"
+				(path "/3f793f1c-3d2c-449d-8c79-5d2783def882/dc11c69b-9431-4228-8e7e-45a9811cc695"
+					(reference "K806")
 					(unit 1)
 				)
 			)
