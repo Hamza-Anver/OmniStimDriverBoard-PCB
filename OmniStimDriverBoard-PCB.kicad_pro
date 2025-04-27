@@ -462,7 +462,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OmniStimEvalBoard.kicad_pro",
+    "filename": "OmniStimDriverBoard-PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
